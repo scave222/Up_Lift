@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace UpLift.Data
+namespace Uplift.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

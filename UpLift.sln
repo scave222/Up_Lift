@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpLift", "UpLift\UpLift.csproj", "{71A928E8-9C80-433D-8FE3-227EF90C3754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uplift.DataAccess", "Uplift.DataAccess\Uplift.DataAccess.csproj", "{E013564E-FF58-48FC-860E-FC0839A0058C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uplift.DataAccess", "Uplift.DataAccess\Uplift.DataAccess.csproj", "{E013564E-FF58-48FC-860E-FC0839A0058C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uplift.Models", "Uplift.Models\Uplift.Models.csproj", "{26189410-F6A3-4C81-94D8-A620DF080907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uplift.Models", "Uplift.Models\Uplift.Models.csproj", "{26189410-F6A3-4C81-94D8-A620DF080907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uplift.Utility", "Uplift.Utility\Uplift.Utility.csproj", "{113B1B85-D506-4C1C-A705-9DF13EE29F48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uplift.Utility", "Uplift.Utility\Uplift.Utility.csproj", "{113B1B85-D506-4C1C-A705-9DF13EE29F48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
