@@ -5,7 +5,7 @@ using Uplift.DataAccess.Data.Respository.IRepository;
 
 namespace Uplift.DataAccess.Data.Respository
 {
-    class UnitOfWork : IUnitOfWork
+   public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
         public UnitOfWork( ApplicationDbContext db)
