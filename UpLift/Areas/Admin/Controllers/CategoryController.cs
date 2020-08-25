@@ -21,6 +21,7 @@ namespace UpLift.Areas.Admin.Controllers
             return View();
         }
 
+
         public IActionResult Upsert(int? id)
         {
             Category category = new Category();
