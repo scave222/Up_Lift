@@ -9,13 +9,13 @@ $(document).ready(function () {
 function loadDataTable() {
     dataTable = $('#tblData').DataTable({
         "ajax": {
-            "url": "admin/category/GetAll",
+            "url": "/admin/category/GetAll",
             "type": "GET",
             "datatype": "json"
         },
         "columns": [
-            { "data": "name", "width", "50%"},
-            { "data": "displayOrder", "width", "20%"},
+            { "data": "name", "width": "50%"},
+            { "data": "displayOrder", "width": "20%"},
             {
                 "data": "id",
                 "render": function (data) {
