@@ -28,9 +28,9 @@ namespace Uplift.DataAccess.Data.Respository
 
         public void Update(Frequency frequency)
         {
-            var objFromDb = _db.Category.FirstOrDefault(s => s.Id == frequency.Id);
+            var objFromDb = _db.Frequency.FirstOrDefault(s => s.Id == frequency.Id);
             objFromDb.Name = frequency.Name;
-            objFromDb.DisplayOrder = frequency.FrequencyCount;
+            objFromDb.FrequencyCount = frequency.FrequencyCount;
             _db.SaveChanges();
         }
     }
