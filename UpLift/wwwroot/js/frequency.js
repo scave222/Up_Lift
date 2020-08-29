@@ -15,17 +15,17 @@ function loadDataTable() {
         },
         "columns": [
             { "data": "name", "width": "50%" },
-            { "data": "displayOrder", "width": "20%" },
+            { "data": "frequencyCount", "width": "20%" },
             {
                 "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
 
-                    <a href="/Admin/category/Upsert/${data}" class='btn btn-success text-white' style='cursor:pointer; width:100px;'>
+                    <a href="/Admin/frequency/Upsert/${data}" class='btn btn-success text-white' style='cursor:pointer; width:100px;'>
                         <i class='far fa-edit'></i> Edit
                     </a>
                     &nbsp;
-                     <a onclick=Delete("/Admin/category/Delete/${data}") class='btn btn-danger text-white' style='cursor:pointer; width:100px'>
+                     <a onclick=Delete("/Admin/frequency/Delete/${data}") class='btn btn-danger text-white' style='cursor:pointer; width:100px'>
                         <i class='far fa-trash-alt'></i> Delete
                     </a>
 
